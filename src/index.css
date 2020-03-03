@@ -1,0 +1,121 @@
+body{
+    color: #707B89;
+}
+.explore{
+    width: 100%;
+    padding:17% 0 17% 3%;
+    text-align: center;
+    background-image: url('/chat/src/assets/photo-1498991703713-22296bfc3912.jpg')
+    
+}
+.btn-explore,
+.expolre-a{
+    color: #eaee18;
+    background-color: rgb(64, 61, 68);
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 120%;
+}
+.btn-explore:hover{
+    background-color: rgb(40, 38, 43);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(64, 61, 68);
+    color: #fff;
+}
+.nav-links{
+    width:40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.sidebar{
+    height: 100vh;
+    padding-left: 20px;
+    background-color: #eaee18;
+    opacity: 0.9;
+    color: white;
+    width: 400px;
+    position: fixed;
+    z-index: 200;
+    left: -100%;
+    animation: slide-open 0.5s forwards;
+}
+@keyframes slide-open{
+    100%{left: 0}
+}
+li{
+    color:white
+}
+.services-section,
+.contact-section{padding: 5% 10% 10% 10%;}
+.contact-section{
+    background-color: rgb(64, 61, 68);
+    
+}
+h3,
+.location,
+.icon{
+    color:#0f9095;;
+}
+input{
+    margin-bottom: 5%;
+    height: 50px;
+}
+#inputMessage{
+    height: 200px;
+}
+.btn-submit{
+    background-color: #0f9095 ;
+    color: white;
+    margin-top: 5%;
+    padding: 15px 25px;
+    border-radius: .25em;
+    border: 0;
+
+}
+.btn-submit:hover{
+    background-color: #0d6d70;
+}
+.icon{
+    font-size: 30px;
+    margin-right: 2%;
+}
+.location{
+    font-size: 30px;
+    font-weight: bold;
+}
+.location-pin{
+    margin-right: 10px;
+    font-size: 30px;
+}
+.more{
+    margin-top: 15%;
+}
+.more-info{
+    padding-left: 10%;
+}
+.details{
+    color:#707B89;
+    font-size: 120%;
+    line-height: 50px;
+    font-weight: bold;
+}
+.location-sec{
+    margin-top: 5%;
+}
+.side{
+    font-size: 130%;
+}
+.main-services{
+    margin-top: 5%
+}
+.footer{
+    height: 50vh;
+}
