@@ -5,8 +5,10 @@ body{
     width: 100%;
     padding:17% 0 17% 3%;
     text-align: center;
-    background-image: url('/chat/src/assets/photo-1498991703713-22296bfc3912.jpg')
-    
+    background-image: url(./assets/photo-1544620347-c4fd4a3d5957.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .btn-explore,
 .expolre-a{
